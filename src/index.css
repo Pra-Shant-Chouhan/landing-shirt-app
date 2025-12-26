@@ -1,14 +1,30 @@
 @import "tailwindcss";
 
-:root {
+body {
   margin: 0px !important;
   padding: 0px !important;
+  width: 100% !important;
+    background: linear-gradient(110deg,
+      var(--clean-blue) 0%,
+      #e9eef0 35%,
+      var(--clean-peach) 100%);
+}
+@theme {
+  /* margin: 0px !important;
+  padding: 0px !important;
+  width: 100%; */
 
   --clean-blue: #c9e4ec;
   --clean-peach: #fbe4cf;
   --clean-dark: #1e2b2f;
   --clean-star: #ffd84d;
 }
+
+/* #root {
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+} */
 
 
 .hero-gradient {
