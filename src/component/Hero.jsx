@@ -1,15 +1,15 @@
 import Navbar from "./Navbar";
 import StatsCard from "./StatsCard";
 import BottomBar from "./BottomBar";
+import Slogan from "./Slogan";
 
 export default function Hero() {
     return (
         <section className="w-[1200px] h-[680px] hero-gradient hero-radius hero-shadow relative overflow-hidden">
             <Navbar />
-
             <main className="container mx-auto px-12 pt-32 pb-40 relative">
                 {/* Stars */}
-                <div className="flex gap-1 mb-4 text-yellow-400 text-xl">
+                <div className="flex gap-1 mb-4 text-yellow-300 text-2xl">
                     {"★★★★★".split("").map((s, i) => <span key={i}>{s}</span>)}
                 </div>
 
@@ -23,8 +23,9 @@ export default function Hero() {
                     <img src="../../public/shirt1.webp" alt="Shirt" className="w-full" />
 
                     {/* Floating Badges */}
-                    <div className="absolute top-10 -left-20 bg-white/10 backdrop-blur-sm border border-white/20 p-2 rounded-full text-[10px] flex items-center gap-2">
-                        <span className="italic">Tough stains? We'll make your clothes flawless!</span>
+                    <div className="absolute top-10 -left-20  p-2 rounded-full text-sm font-medium flex items-center gap-2">
+                        <Slogan />
+                        {/* <span className="italic">Tough stains? We'll make your clothes flawless!</span> */}
                     </div>
                 </div>
 
@@ -35,7 +36,7 @@ export default function Hero() {
             </main>
 
             {/* Footer Bar */}
-            <footer className="absolute bottom-0 w-full bg-slate-900 text-white p-6 flex items-center justify-between rounded-t-[40px] mx-auto">
+            <footer className="absolute bottom-0 w-full bg-slate-900 text-white p-6 flex items-center justify-between rounded-b-[40px] mx-auto">
                 <div className="flex items-center gap-4 ml-8">
                     <div className="flex -space-x-3">
                         {[1, 2, 3, 4, 5].map((i) => (
