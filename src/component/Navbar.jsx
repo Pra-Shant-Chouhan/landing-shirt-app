@@ -16,7 +16,7 @@ export default function Navbar() {
                 <a href="#" className="hover:text-black">Recyclers</a>
             </div>
             <button className=" border-slate-800 rounded-xl border-[1.5px] px-8 py-2.5 flex items-center gap-2 hover:bg-slate-50 transition text-sm font-medium ">
-                Get the App <img src="../../public/play-store-logo.svg"  alt="play-store-logo" className="h-5 m-auto ml-2"/>
+                Get the App <img src="/play-store-logo.svg"  alt="play-store-logo" className="h-5 m-auto ml-2"/>
             </button>
         </nav>
     );

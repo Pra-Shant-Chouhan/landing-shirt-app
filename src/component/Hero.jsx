@@ -44,7 +44,7 @@ export default function Hero() {
                 </div>
                 {/* Center Shirt Image - Positioned absolutely behind text or as a wrapper */}
                 <div className="absolute top-[40%] left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] z-10 opacity-90">
-                    <img src="../assets/shirt1.webp" alt="Shirt" className="w-[80%]" />
+                    <img src="/shirt1.webp" alt="Shirt" className="w-[80%]" />
 
 
                 </div>
